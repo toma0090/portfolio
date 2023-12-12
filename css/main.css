@@ -1,0 +1,89 @@
+:root{
+    --bs-dark-rgb: 0, 0, 0;
+    --bs-primary-rgb: 255, 194, 253;
+  
+}
+.home-head{
+    background-image:url(../images/back-img.png);
+    background: black url(../images/back-img.png) no-repeat top center;
+    background-size:auto;
+ 
+}
+
+h1{
+    color: rgb(var(--bs-primary-rgb));
+}
+.logo{
+    max-width: 150px;
+}
+nav li a,
+nav li a:link,
+nav li a:visited{
+    background-color: rgb(var(--bs-primary-rgb));
+}
+
+.quote-container {
+    position: relative;
+    text-align: center;
+}
+
+.quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Görselliği artırmak için gölge ekledik */
+}
+
+.quote-text p {
+    margin: 0; /* Paragrafın kenar boşluğunu sıfırla */
+}
+
+.quote-text cite {
+    font-style: italic;
+}
+
+.light-button{
+    display: block;
+    padding: 1rem;
+    background-color: white;
+    color: rgb(var(--bs-primary-rgb));
+    font-weight: bolder;
+}
+
+.form {
+    max-width: 200px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+    margin: right; /* Formu ortalamak için */
+}
+
+.form-control,
+.form-check-input,
+textarea.form-control {
+    width: 200%; /* Genişlik 100% olsun */
+    font-size: 15px; /* Yazı boyutunu küçült */
+}
+
+textarea.form-control {
+    resize: none; /* Textarea'nın yeniden boyutlandırılmasını engelle */
+}
+
+
+
+.form-check-input {
+    width: 15px; /* Genişlik değerini küçülterek ayarlayabilirsiniz */
+    height: 15px; /* Yükseklik değerini küçülterek ayarlayabilirsiniz */
+}
+
+.btn-primary {
+   color: rgb(255, 61, 165);
+   background-color:rgb(255, 192, 240);
+   border: 0;
+   border-radius: inherit;
+    }
+
+
+.bg-body-tertiary {
+    background-color: black;
+}

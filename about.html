@@ -9,33 +9,54 @@
     <title>portfolio</title>
 </head>
 <body class="text-bg-dark">
-    <header>
-        <nav class="navbar navbar-expand-md bg-transparent text-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../images/logo.png" class="logo" alt="Logo">Laura</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header class="about-head">
+    <nav class="navbar navbar-expand-lg bg-transparent" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"
+          ><img src="../images/logo.png" class="logo" alt="Logo" 
+        />Laura</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item d-flex justify-content-center">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main class="container">
-        <h1>About Me</h1>
+        <h1>Get To Know Me!</h1>
         
     </main>
 
-<div class="ornek">
-  <img src="images/me.png" class="saga-kaydir" width="500px">
+<div class="container-lg">
+  <div class="clearfix">
+  <img src="../images/me.png" class="saga-kaydir float-md-end img-fluid mx-auto d-block">
   <p>Hello, I’m Laura Tomac, and my primary mission in this job is to assist many people and understand their desires. I constantly strive to stay ahead by following all the latest trends and continuously improving myself. It’s my belief that by understanding the needs and desires of individuals, we can truly make a difference.</p>
 
   <p>In 2002, I began my life’s journey in Ukraine, where I spent my formative years before embarking on a new chapter in Turkey. In pursuit of personal growth and knowledge, I enrolled in the Political Science and Public Administration program at Bursa Uludag University. This experience not only broadened my horizons but also ignited a passion for further learning.</p>
@@ -44,31 +65,36 @@
     
   <p>My vision is to bring your dreams to life because I wholeheartedly believe in their potential. Whether you’re starting a new business or in need of a website, there’s no reason your digital presence shouldn’t encapsulate everything you dream of. With my graphic design expertise and a dedicated team by my side, we can create everything from captivating movie posters to unique logos. We are here to transform your ideas into visual masterpieces, making a lasting impact in the digital realm.</p>
 
-
-
-<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar" style="width: 80%" >80%</div>
 </div>
-<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar bg-info text-dark" style="width: 90%">90%</div>
-</div>
-<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar bg-danger" style="width: 100%">100%</div>
-</div>
-
-<div class="my-work">
-  <img src="images/my-work.png" alt="my work image" width="500px">  
+<div class="row">
+  <div class="col-md-6">
+    <h3>Skills</h3>
+    <div class="progress my-4" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar" style="width: 80%" >80%</div>
     </div>
+    <div class="progress mb-4" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar" style="width: 90%">90%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar" style="width: 100%">100%</div>
+    </div>
+  </div>
+  
+  <div class="my-work col-md-6">
+    <img src="../images/my-work.png" alt="my work image" class="img-fluid">  
+  </div>
+</div>
+</div>
+    <footer class="bg-gradient">
 
-    <footer class="container-lg">
-
-  <div class="row">
-    <div class="p-3 mb-2 bg-gradient text-white">.Copyright &copy; 2023 
+  <div class="container-lg">
+    <div class="row p-3 mb-2 text-white">
+      Copyright &copy; 2023 
    
           <ul class="list-unstyled d-flex justify-content-end w-100">
-              <li><a href="#"><img src="images/Insta-icon.png" alt="insta icon" width="30px"></a></li>
-              <li><a href="#"><img src="images/pinterst-icon.png " alt="pinterst" width="30px"></a></li>
-              <li><a href="#"><img src="images/spotify-icon.png" alt="spotify" width="30px"></a></li>
+              <li><a href="https://www.instagram.com/laratomac/"><img src="../images/Insta-icon.png" alt="insta icon" width="30px"></a></li>
+              <li><a href="https://www.pinterest.ca/"><img src="../images/pinterst-icon.png " alt="pinterst" width="30px"></a></li>
+              <li><a href="https://open.spotify.com/playlist/7nj286fqzQZM99FXI5aYpi?si=e9333c05a5fa40f5"><img src="../images/spotify-icon.png" alt="spotify" width="30px"></a></li>
           </ul>
         </div> 
   </div>
